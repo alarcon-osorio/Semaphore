@@ -46,13 +46,13 @@ public class SemaphoreLogic extends JFrame {
             semaphore3.off();
        }else if ("Red".equals(color)){
             semaphore1.red();
-            semaphore3.yellow();
+            semaphore3.red();
         }else if ("Yellow".equals(color)){
             semaphore1.yellow();
-            semaphore3.green();
+            semaphore3.yellow();
         }else if ("Green".equals(color)){
             semaphore1.green();
-            semaphore3.red();
+            semaphore3.green();
         }
     }
     
@@ -62,13 +62,13 @@ public class SemaphoreLogic extends JFrame {
             semaphore4.off();
         }else if ("Red".equals(color)){
             semaphore2.red();
-            semaphore4.yellow();
+            semaphore4.red();
         }else if ("Yellow".equals(color)){
             semaphore2.yellow();
-            semaphore4.green();
+            semaphore4.yellow();
         }else if ("Green".equals(color)){
             semaphore2.green();
-            semaphore4.red();
+            semaphore4.green();
         }
     }
     

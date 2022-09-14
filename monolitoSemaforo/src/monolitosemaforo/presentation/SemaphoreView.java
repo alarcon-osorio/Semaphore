@@ -41,10 +41,11 @@ public class SemaphoreView extends javax.swing.JFrame {
         btnRed1 = new javax.swing.JRadioButton();
         btnYellow1 = new javax.swing.JRadioButton();
         btnGreen1 = new javax.swing.JRadioButton();
-        btnOff = new javax.swing.JRadioButton();
+        btnOff1 = new javax.swing.JRadioButton();
         btnGreen2 = new javax.swing.JRadioButton();
         btnYellow2 = new javax.swing.JRadioButton();
         btnRed2 = new javax.swing.JRadioButton();
+        btnOff2 = new javax.swing.JRadioButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
@@ -87,10 +88,10 @@ public class SemaphoreView extends javax.swing.JFrame {
             }
         });
 
-        btnOff.setText("Apagar");
-        btnOff.addActionListener(new java.awt.event.ActionListener() {
+        btnOff1.setText(" Apagar");
+        btnOff1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnOffActionPerformed(evt);
+                btnOff1ActionPerformed(evt);
             }
         });
 
@@ -112,49 +113,64 @@ public class SemaphoreView extends javax.swing.JFrame {
             }
         });
 
+        btnOff2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOff2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnOff))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnOff1)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnGreen1)
+                                    .addComponent(btnRed1))
+                                .addGap(0, 50, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(btnYellow1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnYellow2))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(btnGreen1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnGreen2))
+                                .addComponent(btnOff2)
+                                .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                                .addComponent(btnRed1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnRed2)))))
-                .addContainerGap(12, Short.MAX_VALUE))
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnRed2, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(btnGreen2, javax.swing.GroupLayout.Alignment.TRAILING)))))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(btnYellow1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnYellow2)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnRed1)
-                    .addComponent(btnRed2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnYellow1)
-                    .addComponent(btnYellow2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnGreen1)
-                    .addComponent(btnGreen2))
-                .addGap(12, 12, 12)
-                .addComponent(btnOff)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(btnRed2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnYellow2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnGreen2)
+                        .addGap(12, 12, 12)
+                        .addComponent(btnOff2))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(btnRed1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnYellow1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnGreen1)
+                        .addGap(12, 12, 12)
+                        .addComponent(btnOff1)))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
@@ -218,11 +234,11 @@ public class SemaphoreView extends javax.swing.JFrame {
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(21, 21, 21)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -251,8 +267,8 @@ public class SemaphoreView extends javax.swing.JFrame {
         btg2.add(btnRed2);
         btg2.add(btnYellow2);
         btg2.add(btnGreen2);
-        btg1.add(btnOff);
-        btg2.add(btnOff);
+        btg1.add(btnOff1);
+        btg2.add(btnOff2);
         jPanel3.setSize(200, 200);
         jPanel3.setLayout(new FlowLayout(FlowLayout.CENTER));
         jPanel3.add(semaphoreLogic.getLight2());
@@ -266,10 +282,9 @@ public class SemaphoreView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnOffActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOffActionPerformed
+    private void btnOff1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOff1ActionPerformed
         semaphoreLogic.setLight1("Off");
-        semaphoreLogic.setLight2("Off");
-    }//GEN-LAST:event_btnOffActionPerformed
+    }//GEN-LAST:event_btnOff1ActionPerformed
 
     private void btnRed1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRed1ActionPerformed
         semaphoreLogic.setLight1("Red");
@@ -295,10 +310,15 @@ public class SemaphoreView extends javax.swing.JFrame {
         semaphoreLogic.setLight2("Red");
     }//GEN-LAST:event_btnRed2ActionPerformed
 
+    private void btnOff2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOff2ActionPerformed
+        semaphoreLogic.setLight2("Off");
+    }//GEN-LAST:event_btnOff2ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton btnGreen1;
     private javax.swing.JRadioButton btnGreen2;
-    private javax.swing.JRadioButton btnOff;
+    private javax.swing.JRadioButton btnOff1;
+    private javax.swing.JRadioButton btnOff2;
     private javax.swing.JRadioButton btnRed1;
     private javax.swing.JRadioButton btnRed2;
     private javax.swing.JRadioButton btnYellow1;
