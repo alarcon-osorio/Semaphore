@@ -19,7 +19,8 @@ public class Launcher {
     public static void main(String[] args) {
         SemaphoreView frame = new SemaphoreView();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
+        frame.setSize(370, 600);
+        frame.setTitle("Semaforo");
         frame.setResizable(true);
         frame.setVisible(true);
     }
