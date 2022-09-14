@@ -5,7 +5,7 @@
 package monolitosemaforo;
 
 import javax.swing.JFrame;
-import monolitosemaforo.presentation.views.SemaphoreView;
+import monolitosemaforo.presentation.SemaphoreView;
 
 /**
  *

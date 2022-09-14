@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package monolitosemaforo.controllador;
+package monolitosemaforo.logic;
 
-import monolitosemaforo.presentation.model.Semaphore;
+import monolitosemaforo.persistencia.Semaphore;
 
 import java.awt.Component;
 import javax.swing.JFrame;
@@ -13,7 +13,7 @@ import javax.swing.JFrame;
  *
  * @author mac
  */
-public class SemaphoreController extends JFrame {
+public class SemaphoreLogic extends JFrame {
     
     Semaphore semaphore1 = new Semaphore();
     Semaphore semaphore2 = new Semaphore();
@@ -40,26 +40,34 @@ public class SemaphoreController extends JFrame {
         return semaphore4;
     }
     
-    public void setLight(String color){
+    public void setLight1(String color){
         if("Off".equals(color)){
             semaphore1.off();
-            semaphore2.off();
             semaphore3.off();
-            semaphore4.off();
-        }else if ("Red".equals(color)){
+       }else if ("Red".equals(color)){
             semaphore1.red();
-            semaphore2.yellow();
-            semaphore3.red();
-            semaphore4.yellow();
+            semaphore3.yellow();
         }else if ("Yellow".equals(color)){
             semaphore1.yellow();
-            semaphore2.green();
-            semaphore3.yellow();
-            semaphore4.green();
+            semaphore3.green();
         }else if ("Green".equals(color)){
             semaphore1.green();
+            semaphore3.red();
+        }
+    }
+    
+    public void setLight2(String color){
+        if("Off".equals(color)){
+            semaphore2.off();
+            semaphore4.off();
+        }else if ("Red".equals(color)){
             semaphore2.red();
-            semaphore3.green();
+            semaphore4.yellow();
+        }else if ("Yellow".equals(color)){
+            semaphore2.yellow();
+            semaphore4.green();
+        }else if ("Green".equals(color)){
+            semaphore2.green();
             semaphore4.red();
         }
     }
