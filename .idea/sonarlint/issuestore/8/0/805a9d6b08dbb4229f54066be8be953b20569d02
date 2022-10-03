@@ -1,0 +1,66 @@
+
+J
+java:S1604I"(Make this anonymous inner class a lambda(µ†—şÿÿÿÿ8õ¹Í³0
+J
+java:S1604O"(Make this anonymous inner class a lambda(Ò¡şÿÿÿÿ8ö¹Í³0
+E
+java:S1604U"(Make this anonymous inner class a lambda(•ÉŠÅ8ö¹Í³0
+J
+java:S1604\"(Make this anonymous inner class a lambda(¢ëİ‡ùÿÿÿÿ8÷¹Í³0
+J
+java:S1604b"(Make this anonymous inner class a lambda(¥úìÜşÿÿÿÿ8÷¹Í³0
+J
+java:S1604h"(Make this anonymous inner class a lambda(Â€´ùÿÿÿÿ8ø¹Í³0
+J
+java:S1604n"(Make this anonymous inner class a lambda(‰Ö“—ùÿÿÿÿ8ù¹Í³0
+J
+java:S1604t"(Make this anonymous inner class a lambda(°Ÿæ÷ıÿÿÿÿ8ù¹Í³0
+v
+java:S1450¾"XRemove the "btnGreen1" field and declare it as a local variable in the relevant methods.(æ³ıÅ8»Í³0
+u
+java:S1450¿"XRemove the "btnGreen2" field and declare it as a local variable in the relevant methods.(‚_8Ÿ»Í³0
+y
+java:S1450À"VRemove the "btnOff1" field and declare it as a local variable in the relevant methods.(„­œÍøÿÿÿÿ8 »Í³0
+y
+java:S1450Á"VRemove the "btnOff2" field and declare it as a local variable in the relevant methods.(äÿÔßÿÿÿÿÿ8¢»Í³0
+m
+java:S1450Â"VRemove the "btnRed1" field and declare it as a local variable in the relevant methods.(—›‚÷
+r
+java:S1450Ã"VRemove the "btnRed2" field and declare it as a local variable in the relevant methods.(±¯ø„úÿÿÿÿ
+u
+java:S1450Ä"YRemove the "btnYellow1" field and declare it as a local variable in the relevant methods.(©ÉÏäùÿÿÿÿ
+p
+java:S1450Å"YRemove the "btnYellow2" field and declare it as a local variable in the relevant methods.(å„‘¨
+l
+java:S1450Æ"URemove the "jMenu2" field and declare it as a local variable in the relevant methods.(€˜ÇÛ
+l
+java:S1450Ç"URemove the "jMenu3" field and declare it as a local variable in the relevant methods.(ƒŞøõ
+t
+java:S1450È"XRemove the "jMenuBar1" field and declare it as a local variable in the relevant methods.(úıÁ›ÿÿÿÿÿ
+r
+java:S1450É"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+r
+java:S1450Ê"VRemove the "jPanel2" field and declare it as a local variable in the relevant methods.(õ òçüÿÿÿÿ
+m
+java:S1450Ë"VRemove the "jPanel3" field and declare it as a local variable in the relevant methods.(Œ³èÈ
+r
+java:S1450Ì"VRemove the "jPanel4" field and declare it as a local variable in the relevant methods.(§É†¬şÿÿÿÿ
+m
+java:S1450Í"VRemove the "jPanel5" field and declare it as a local variable in the relevant methods.(³¡©ú
+Q	java:S125"<This block of commented-out lines of code should be removed.(ö“ì
+M
+java:S1172"*Remove this unused method parameter "evt".(°¡Ñëùÿÿÿÿ8÷»Í³0
+H
+java:S1172¡"*Remove this unused method parameter "evt".(ÏÔÒ8ù»Í³0
+H
+java:S1172¥"*Remove this unused method parameter "evt".(Ã«¸Î8ú»Í³0
+M
+java:S1172©"*Remove this unused method parameter "evt".(÷Œ”œúÿÿÿÿ8ü»Í³0
+M
+java:S1172­"*Remove this unused method parameter "evt".(€ì†âùÿÿÿÿ8ş»Í³0
+M
+java:S1172±"*Remove this unused method parameter "evt".(¿äåúúÿÿÿÿ8€¼Í³0
+M
+java:S1172µ"*Remove this unused method parameter "evt".(Œ©ËÛúÿÿÿÿ8‚¼Í³0
+M
+java:S1172¹"*Remove this unused method parameter "evt".(¦»Üæøÿÿÿÿ8…¼Í³0

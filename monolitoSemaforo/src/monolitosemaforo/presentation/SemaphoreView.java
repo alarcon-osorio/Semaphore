@@ -5,6 +5,7 @@
 package monolitosemaforo.presentation;
 
 import java.awt.FlowLayout;
+import java.awt.event.WindowAdapter;
 import javax.swing.ButtonGroup;
 
 import monolitosemaforo.logic.SemaphoreLogic;
@@ -313,6 +314,9 @@ public class SemaphoreView extends javax.swing.JFrame {
     private void btnOff2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOff2ActionPerformed
         semaphoreLogic.setLight2("Off");
     }//GEN-LAST:event_btnOff2ActionPerformed
+
+
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton btnGreen1;
