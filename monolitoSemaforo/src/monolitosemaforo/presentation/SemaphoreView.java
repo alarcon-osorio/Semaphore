@@ -5,7 +5,7 @@
 package monolitosemaforo.presentation;
 
 import java.awt.FlowLayout;
-import java.awt.event.WindowAdapter;
+import java.io.IOException;
 import javax.swing.ButtonGroup;
 
 import monolitosemaforo.logic.SemaphoreLogic;
@@ -19,12 +19,12 @@ public class SemaphoreView extends javax.swing.JFrame {
     ButtonGroup btg1 = new ButtonGroup();
     ButtonGroup btg2 = new ButtonGroup();
     private SemaphoreLogic semaphoreLogic = new SemaphoreLogic();
-    //private SemaphoreLogic semaphoreController = new SemaphoreLogic();
-    
+
+
     /**
      * Creates new form SemaphoreView
      */
-    public SemaphoreView() {
+    public SemaphoreView() throws IOException {
         initComponents();
     }
 
@@ -287,7 +287,7 @@ public class SemaphoreView extends javax.swing.JFrame {
         semaphoreLogic.setLight1("Off");
     }//GEN-LAST:event_btnOff1ActionPerformed
 
-    private void btnRed1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRed1ActionPerformed
+    public void btnRed1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRed1ActionPerformed
         semaphoreLogic.setLight1("Red");
     }//GEN-LAST:event_btnRed1ActionPerformed
 

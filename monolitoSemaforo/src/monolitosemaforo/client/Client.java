@@ -23,19 +23,13 @@ public class Client {
 
             System.out.println(input.readUTF());
 
-            int service, input1, input2;
-
-            String red;
+            int service;
 
             do {
                 System.out.print("\nSeleccione una Opción: ");
                 service = userEntry.nextInt();
-
-                System.out.print("Entrada : ");
-
+                System.out.print("Salida : ");
                 output.writeInt(service);
-
-                System.out.println(input.readUTF());
 
             } while (service != 0);
 
@@ -50,7 +44,7 @@ public class Client {
                 System.out.println("\n* Cerrando conexión *");
                 client.close();
             } catch (IOException ioEx) {
-                System.out.println("--->Unable to disconnect<---");
+                System.out.println("--->Conexión no disponible<---");
                 System.exit(1);
             }
         }
