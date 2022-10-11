@@ -132,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LaunchServer" />
         <item itemvalue="Application.LaunchClient" />
+        <item itemvalue="Application.LaunchServer" />
         <item itemvalue="Application.logic.client.Client" />
         <item itemvalue="Application.presentation.ControllerBoardPrincipal" />
         <item itemvalue="Application.presentation.SemaphoresView" />
