@@ -1,5 +1,4 @@
-import client.Client;
-import controller.ControllerBoard;
+import presentation.ControllerBoardPrincipal;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -7,13 +6,11 @@ import java.io.IOException;
 public class LaunchServer {
 
     public static void main(String[] args) throws IOException {
-        ControllerBoard frame = new ControllerBoard();
+        ControllerBoardPrincipal frame = new ControllerBoardPrincipal();
+        frame.setTitle("Controladora");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 200);
+        frame.setSize(290, 300);
         frame.setResizable(true);
         frame.setVisible(true);
-
-        Client client = new Client();
-
     }
 }
