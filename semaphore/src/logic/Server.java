@@ -1,4 +1,4 @@
-package logic.server;
+package logic;
 
 import presentation.ControllerBoardPrincipal;
 import persistence.Light;
@@ -18,6 +18,8 @@ public class Server extends JFrame implements Runnable {
     private SemaphoresView semaphoresView = new SemaphoresView();
 
     Light light = new Light();
+
+
 
     public Server(int port) throws IOException {
         serverSocket = new ServerSocket(port);

@@ -1,13 +1,14 @@
-package logic.client;
+package logic;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class Client {
+public class Client implements Runnable{
 
-    public static void main(String [] args) {
+    @Override
+    public void run() {
         Socket client = null;
         String host = "localhost";
         int port = 8081;
@@ -49,4 +50,6 @@ public class Client {
             }
         }
     }
+
 }
+

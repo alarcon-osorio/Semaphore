@@ -7,7 +7,7 @@ package presentation;
 import javax.swing.*;
 
 
-import logic.server.Server;
+import logic.Server;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -43,7 +43,7 @@ public class ControllerBoardPrincipal extends javax.swing.JFrame implements Acti
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-       // server.run();
+        server.run();
 
         jLabel1 = new javax.swing.JLabel();
         setTitle("Controlador");
@@ -313,7 +313,7 @@ public class ControllerBoardPrincipal extends javax.swing.JFrame implements Acti
         if(e.getSource() instanceof JRadioButton) {
             if ("Inicio".equals((actionCommand))){
                 semaphoresView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                semaphoresView.setSize(260, 600);
+                semaphoresView.setSize(260, 615);
                 semaphoresView.setResizable(true);
                 semaphoresView.setVisible(true);
             }else if("Rojo 1".equals(actionCommand)){

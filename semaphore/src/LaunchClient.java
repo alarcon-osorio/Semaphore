@@ -1,6 +1,6 @@
-import javax.swing.*;
+import logic.Client;
 
-import presentation.SemaphoresView;
+import java.io.IOException;
 
 /**
  *
@@ -8,13 +8,9 @@ import presentation.SemaphoresView;
  */
 public class LaunchClient {
 
-    public static void main(String[] args) {
-        SemaphoresView frame = new SemaphoresView();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(260, 600);
-        frame.setTitle("Semaforo");
-        frame.setResizable(true);
-        frame.setVisible(true);
-     
+    public static void main(String[] args) throws IOException {
+
+        Client client = new Client();
+        client.run();
     }
 }

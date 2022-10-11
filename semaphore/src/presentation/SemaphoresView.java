@@ -22,7 +22,32 @@ public class SemaphoresView extends javax.swing.JFrame {
     private Light semaphore3 = new Light();
     private Light semaphore4 = new Light();
 
+    TimerTask taskFailSem1;
+    TimerTask taskFailSem2;
+    TimerTask taskFailSem3;
+    TimerTask taskFailSem4;
+    TimerTask taskOffSem1;
+    TimerTask taskOffSem2;
+    TimerTask taskOffSem3;
+    TimerTask taskOffSem4;
+
+    TimerTask taskAutoGroup1Red;
+    TimerTask taskAutoGroup1Yellow;
+    TimerTask taskAutoGroup1Green;
+    TimerTask taskAutoGroup1Yellow2;
+
+    TimerTask taskAutoGroup2Red;
+    TimerTask taskAutoGroup2Yellow;
+    TimerTask taskAutoGroup2Green;
+    TimerTask taskAutoGroup2Yellow2;
+
+    TimerTask taskAutoGroup1Red2;
+
+    TimerTask taskAutoGroup2Green2;
+
+
     Timer timer = new Timer();
+
 
     /**
      * Creates new form vista1
@@ -45,6 +70,10 @@ public class SemaphoresView extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -54,11 +83,11 @@ public class SemaphoresView extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 120, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 274, Short.MAX_VALUE)
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -71,7 +100,7 @@ public class SemaphoresView extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 237, Short.MAX_VALUE)
+            .addGap(0, 274, Short.MAX_VALUE)
         );
 
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -80,11 +109,11 @@ public class SemaphoresView extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 105, Short.MAX_VALUE)
+            .addGap(0, 120, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 264, Short.MAX_VALUE)
+            .addGap(0, 260, Short.MAX_VALUE)
         );
 
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -97,7 +126,49 @@ public class SemaphoresView extends javax.swing.JFrame {
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setText("GRUPO SEMAFORICO 1");
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(10, Short.MAX_VALUE))
+        );
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setText("GRUPO SEMAFORICO 2");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jLabel3)
+                .addGap(0, 12, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3)
+                .addContainerGap(11, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -105,28 +176,42 @@ public class SemaphoresView extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(38, 38, 38)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(38, 38, 38)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(32, 32, 32)
+                                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(56, 56, 56)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         jPanel1.setSize(200, 200);
@@ -231,82 +316,280 @@ public class SemaphoresView extends javax.swing.JFrame {
 
     public void off(){
         System.out.println("00000000 - Semaforos Apagados");
+
         semaphore1.off();
         semaphore2.off();
         semaphore3.off();
         semaphore4.off();
-        timer.cancel();
+
+        taskAutoGroup1Red.cancel();
+        taskAutoGroup1Yellow.cancel();
+        taskAutoGroup1Green.cancel();
+        taskAutoGroup1Yellow2.cancel();
+
+        taskAutoGroup2Red.cancel();
+        taskAutoGroup2Yellow.cancel();
+        taskAutoGroup2Green.cancel();
+        taskAutoGroup2Yellow2.cancel();
+
+        taskAutoGroup2Green2.cancel();
+        taskAutoGroup1Red2.cancel();
+
+
     }
 
 
     public void auto() {
-        timer.schedule(new TimerTask() {
+
+        //Semaforo 1
+        //Semaforo 2
+
+        taskAutoGroup1Red = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.red();
                 semaphore2.red();
-                System.out.println("00001011 - Luz Roja Automatico");
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 1");
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 2");
             }
-        }, 4000, 4000);
+        };
 
-        timer.schedule(new TimerTask() {
+        timer.schedule(taskAutoGroup1Red, 2000, 20000);
+
+        taskAutoGroup1Yellow = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.yellow();
                 semaphore2.yellow();
-                System.out.println("00000011 - Luz Amarilla Automatico");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 1");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 2");
             }
-        }, 4000, 4000);
+        };
 
-        timer.schedule(new TimerTask() {
+        timer.schedule(taskAutoGroup1Yellow, 4000, 20000);
+
+        taskAutoGroup1Green = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.green();
                 semaphore2.green();
-                System.out.println("00100011 - Luz Verde Automatico");
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 1");
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 2");
             }
-        }, 4000, 4000);
+        };
 
-        timer.schedule(new TimerTask() {
+        timer.schedule(taskAutoGroup1Green, 6000, 20000);
+
+        taskAutoGroup1Yellow2 = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.yellow();
                 semaphore2.yellow();
-                System.out.println("00000011 - Luz Amarilla Automatico");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 1");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 2");
             }
-        }, 4000, 4000);
+        };
+
+        timer.schedule(taskAutoGroup1Yellow2, 8000, 20000);
+
+
+        taskAutoGroup1Red2 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore1.red();
+                semaphore2.red();
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 1");
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 2");
+            }
+        };
+
+        timer.schedule(taskAutoGroup1Red2, 10000, 20000);
+
+
+        //Grupo de semaforos
+        //Semaforo 3
+        //Semaforo 4
+
+        taskAutoGroup2Green = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.green();
+                semaphore4.green();
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 3");
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 4");
+
+
+            }
+        };
+
+        timer.schedule(taskAutoGroup2Green, 2000, 20000);
+
+        taskAutoGroup2Yellow = new TimerTask(){
+            @Override
+            public void run(){
+
+                semaphore3.yellow();
+                semaphore4.yellow();
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 3");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskAutoGroup2Yellow, 4000, 20000);
+
+        taskAutoGroup2Red = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.red();
+                semaphore4.red();
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 3");
+                System.out.println("00001011 - Luz Roja Automatica - Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskAutoGroup2Red, 6000, 20000);
+
+        taskAutoGroup2Yellow2 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.yellow();
+                semaphore4.yellow();
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 3");
+                System.out.println("00001011 - Luz Amarilla Automatica - Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskAutoGroup2Yellow2, 8000, 20000);
+
+        taskAutoGroup2Green2 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.green();
+                semaphore4.green();
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 3");
+                System.out.println("00001011 - Luz Verde Automatica - Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskAutoGroup2Green2, 10000, 20000);
+
 
     }
 
     public void fail(){
-        timer.schedule(new TimerTask() {
+
+        //Semaforo 1
+        taskFailSem1 = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.fail();
-                System.out.println("00001011 - Intermitencia: Falla ");
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 1");
             }
-        }, 0, 1000);
+        };
 
-        timer.schedule(new TimerTask() {
+        timer.schedule(taskFailSem1, 0, 1000);
+
+        taskOffSem1 = new TimerTask(){
             @Override
-            public void run() {
+            public void run(){
                 semaphore1.off();
-                System.out.println("00001011 - Intermitencia: Falla ");
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 1");
             }
-        }, 100, 1000);
+        };
 
+        timer.schedule(taskOffSem1, 200, 1000);
+
+        //Semaforo 2
+        taskFailSem2 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore2.fail();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 2");
+            }
+        };
+
+        timer.schedule(taskFailSem2, 0, 1000);
+
+        taskOffSem2 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore2.off();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 2");
+            }
+        };
+
+        timer.schedule(taskOffSem2, 200, 1000);
+
+        //Semaforo 3
+        taskFailSem3 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.fail();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 3");
+            }
+        };
+
+        timer.schedule(taskFailSem3, 0, 1000);
+
+        taskOffSem3 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore3.off();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 3");
+            }
+        };
+
+        timer.schedule(taskOffSem3, 200, 1000);
+
+        //Semaforo 4
+        taskFailSem4 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore4.fail();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskFailSem4, 0, 1000);
+
+        taskOffSem4 = new TimerTask(){
+            @Override
+            public void run(){
+                semaphore4.off();
+                System.out.println("00001011 - Intermitencia: Falla Semaforo 4");
+            }
+        };
+
+        timer.schedule(taskOffSem4, 200, 1000);
+
+        off();
 
     }
     public void repair(){
         System.out.println("Semaforo Reparado reiniciando el sistema el sistema");
-        semaphore1.off();
-        timer.cancel();
+
+        off();
+
+        taskOffSem1.cancel();
+        taskOffSem2.cancel();
+        taskOffSem3.cancel();
+        taskOffSem4.cancel();
+
+        taskFailSem1.cancel();
+        taskFailSem2.cancel();
+        taskFailSem3.cancel();
+        taskFailSem4.cancel();
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     // End of variables declaration//GEN-END:variables
 }
