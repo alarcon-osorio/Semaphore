@@ -1,41 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84c07621-6a38-4d11-a676-c0da8b0f801d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/ControllerBoardPrincipal.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/ControllerBoardPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/SemaphoresView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/SemaphoresView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../monolitoSemaforo/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../monolitoSemaforo/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../monolitoSemaforo/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../monolitoSemaforo/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="84c07621-6a38-4d11-a676-c0da8b0f801d" name="Changes" comment="Para diagrama UML - Faltan cambios en logica interna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/LaunchSemaphore.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/semaphore/LaunchServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/LaunchServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/controller/ControllerBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/model/Light.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/semaphore2/ColorAmarillo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/semaphore2/ColorRojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/semaphore2/ColorVerde.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/semaphore2/Semaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/semaphore2/Temporizador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semaphore/view/SemaphoreView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaunchSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaunchClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/ControllerBoardPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/ControllerBoardPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semaphore/presentation/SemaphoresView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LaunchServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaunchServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ControllerBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persistence/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/SemaphoreView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/ControllerBoardPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/ControllerBoardPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/SemaphoresView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/SemaphoresView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,23 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jeison.alarcon/OneDrive - Organización TERPEL S.A/Desarrollo/2. Personal/Semaforo/SemaphoreBack/Semaphore/semaphore&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/jeison.alarcon/OneDrive - Organización TERPEL S.A/Desarrollo/2. Personal/Semaforo/SemaphoreBack/Semaphore/semaphore",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.logic.client.Client">
+  <component name="RunManager" selected="Application.LaunchServer">
     <configuration name="ControllerBoardPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="presentation.ControllerBoardPrincipal" />
       <module name="semaphore" />
@@ -147,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.logic.client.Client" />
         <item itemvalue="Application.LaunchServer" />
         <item itemvalue="Application.presentation.ControllerBoardPrincipal" />
+        <item itemvalue="Application.logic.client.Client" />
         <item itemvalue="Application.presentation.SemaphoresView" />
         <item itemvalue="Application.logic.server.Server" />
       </list>
@@ -164,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665346596168</updated>
     </task>
+    <task id="LOCAL-00001" summary="Para diagrama UML - Faltan cambios en logica interna">
+      <created>1665504939620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665504939620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,5 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Para diagrama UML - Faltan cambios en logica interna" />
+    <option name="LAST_COMMIT_MESSAGE" value="Para diagrama UML - Faltan cambios en logica interna" />
   </component>
 </project>

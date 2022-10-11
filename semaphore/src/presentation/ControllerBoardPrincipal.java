@@ -43,18 +43,18 @@ public class ControllerBoardPrincipal extends javax.swing.JFrame implements Acti
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        server.run();
+       // server.run();
 
         jLabel1 = new javax.swing.JLabel();
         setTitle("Controlador");
 
         btnInit = new javax.swing.JRadioButton("Inicio", false);
-        btnRed1 = new javax.swing.JRadioButton("Rojo", false);
-        btnRed2 = new javax.swing.JRadioButton("Rojo", false);
-        btnYellow1 = new javax.swing.JRadioButton("Amarillo", false);
-        btnYellow2 = new javax.swing.JRadioButton("Amarillo", false);
-        btnGreen1 = new javax.swing.JRadioButton("Verde", false);
-        btnGreen2 = new javax.swing.JRadioButton("Verde", false);
+        btnRed1 = new javax.swing.JRadioButton("Rojo 1", false);
+        btnRed2 = new javax.swing.JRadioButton("Rojo 2", false);
+        btnYellow1 = new javax.swing.JRadioButton("Amarillo 1", false);
+        btnYellow2 = new javax.swing.JRadioButton("Amarillo 2", false);
+        btnGreen1 = new javax.swing.JRadioButton("Verde 1", false);
+        btnGreen2 = new javax.swing.JRadioButton("Verde 2", false);
         btnAuto = new javax.swing.JRadioButton("Automatico", false);
         btnOff = new javax.swing.JRadioButton("Apagado", false);
         btnFail = new javax.swing.JRadioButton("Fallo", false);
@@ -66,7 +66,7 @@ public class ControllerBoardPrincipal extends javax.swing.JFrame implements Acti
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("CONTROLADORA PRINCIPAL - SERVIDOR");
+        jLabel1.setText("CONTROLADORA PRINCIPAL - SERVER");
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
@@ -316,12 +316,18 @@ public class ControllerBoardPrincipal extends javax.swing.JFrame implements Acti
                 semaphoresView.setSize(260, 600);
                 semaphoresView.setResizable(true);
                 semaphoresView.setVisible(true);
-            }else if("Rojo".equals(actionCommand)){
-                semaphoresView.red();
-            }else if("Amarillo".equals(actionCommand)) {
-                semaphoresView.yellow();
-            }else if("Verde".equals(actionCommand)){
-                semaphoresView.green();
+            }else if("Rojo 1".equals(actionCommand)){
+                semaphoresView.red1();
+            }else if("Rojo 2".equals(actionCommand)){
+                semaphoresView.red2();
+            }else if("Amarillo 1".equals(actionCommand)) {
+                semaphoresView.yellow1();
+            }else if("Amarillo 2".equals(actionCommand)) {
+                semaphoresView.yellow2();
+            }else if("Verde 1".equals(actionCommand)){
+                semaphoresView.green1();
+            }else if("Verde 2".equals(actionCommand)){
+                semaphoresView.green2();
             }else if("Automatico".equals(actionCommand)){
                 semaphoresView.auto();
             }else if("Apagado".equals(actionCommand)){

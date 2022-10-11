@@ -187,29 +187,50 @@ public class SemaphoresView extends javax.swing.JFrame {
         });
     }
     
-    public void red(){
-        System.out.println("Luz Roja 1");
+    public void red1(){
+        System.out.println("00001011 - Luz Roja Semaforo 1 Grupo 1");
         semaphore1.red();
-        System.out.println("Luz Roja 2");
+        System.out.println("00001011 - Luz Roja Semaforo 2 Grupo 1");
         semaphore2.red();
     }
 
-    public void yellow(){
-        System.out.println("Luz Amarilla 1");
+    public void yellow1(){
+        System.out.println("00000011 - Luz Amarilla Semaforo 1 Grupo 1");
         semaphore1.yellow();
-        System.out.println("Luz Amarilla 2");
+        System.out.println("00000011 - Luz Amarilla Semaforo 2 Grupo 1");
         semaphore2.yellow();
     }
 
-    public void green(){
-        System.out.println("Luz Verde 1");
+    public void green1(){
+        System.out.println("00100011 - Luz Verde Semaforo 1 Grupo 1");
         semaphore1.green();
-        System.out.println("Luz Verde 2");
+        System.out.println("00100011 - Luz Verde Semaforo 2 Grupo 1");
         semaphore2.green();
     }
 
+    public void red2(){
+        System.out.println("00001011 - Luz Roja Semaforo 1 Grupo 2");
+        semaphore3.red();
+        System.out.println("00001011 - Luz Roja Semaforo 2 Grupo 2");
+        semaphore4.red();
+    }
+
+    public void yellow2(){
+        System.out.println("00000011 - Luz Amarilla Semaforo 1 Grupo 2");
+        semaphore3.yellow();
+        System.out.println("00000011 - Luz Amarilla Semaforo 2 Grupo 2");
+        semaphore4.yellow();
+    }
+
+    public void green2(){
+        System.out.println("00100011 - Luz Verde Semaforo 1 Grupo 2");
+        semaphore3.green();
+        System.out.println("00100011 - Luz Verde Semaforo 2 Grupo 2");
+        semaphore4.green();
+    }
+
     public void off(){
-        System.out.println("Semaforos Apagados");
+        System.out.println("00000000 - Semaforos Apagados");
         semaphore1.off();
         semaphore2.off();
         semaphore3.off();
@@ -224,7 +245,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             public void run() {
                 semaphore1.red();
                 semaphore2.red();
-                System.out.println("Luz Roja");
+                System.out.println("00001011 - Luz Roja Automatico");
             }
         }, 4000, 4000);
 
@@ -233,7 +254,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             public void run() {
                 semaphore1.yellow();
                 semaphore2.yellow();
-                System.out.println("Luz Verde");
+                System.out.println("00000011 - Luz Amarilla Automatico");
             }
         }, 4000, 4000);
 
@@ -242,7 +263,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             public void run() {
                 semaphore1.green();
                 semaphore2.green();
-                System.out.println("Luz Amarilla");
+                System.out.println("00100011 - Luz Verde Automatico");
             }
         }, 4000, 4000);
 
@@ -251,7 +272,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             public void run() {
                 semaphore1.yellow();
                 semaphore2.yellow();
-                System.out.println("Luz Verde");
+                System.out.println("00000011 - Luz Amarilla Automatico");
             }
         }, 4000, 4000);
 
@@ -262,7 +283,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             @Override
             public void run() {
                 semaphore1.fail();
-                System.out.println("Intermitencia: Falla ");
+                System.out.println("00001011 - Intermitencia: Falla ");
             }
         }, 0, 1000);
 
@@ -270,7 +291,7 @@ public class SemaphoresView extends javax.swing.JFrame {
             @Override
             public void run() {
                 semaphore1.off();
-                System.out.println("Intermitencia: Falla ");
+                System.out.println("00001011 - Intermitencia: Falla ");
             }
         }, 100, 1000);
 

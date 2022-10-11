@@ -9,7 +9,7 @@ public class LaunchServer {
         ControllerBoardPrincipal frame = new ControllerBoardPrincipal();
         frame.setTitle("Controladora");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(290, 300);
+        frame.setSize(310, 390);
         frame.setResizable(true);
         frame.setVisible(true);
     }
