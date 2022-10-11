@@ -12,5 +12,6 @@ public class LaunchServer {
         frame.setSize(310, 390);
         frame.setResizable(true);
         frame.setVisible(true);
+
     }
 }
