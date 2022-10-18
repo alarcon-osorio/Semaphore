@@ -1,0 +1,62 @@
+
+h	java:S112›"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷×ë½¼0
+m
+java:S1450¡"VRemove the "btnAuto" field and declare it as a local variable in the relevant methods.(¯Ğ¨¾
+t
+java:S1450«"VRemove the "btnFail" field and declare it as a local variable in the relevant methods.(ü›Ğ8Øüî½¼0
+o
+java:S1450¢"XRemove the "btnGreen1" field and declare it as a local variable in the relevant methods.(æ³ıÅ
+n
+java:S1450£"XRemove the "btnGreen2" field and declare it as a local variable in the relevant methods.(‚_
+m
+java:S1450¤"VRemove the "btnInit" field and declare it as a local variable in the relevant methods.(¸ÙÀ 
+l
+java:S1450¥"URemove the "btnOff" field and declare it as a local variable in the relevant methods.(‹«Ó¬
+m
+java:S1450¦"VRemove the "btnRed1" field and declare it as a local variable in the relevant methods.(—›‚÷
+r
+java:S1450§"VRemove the "btnRed2" field and declare it as a local variable in the relevant methods.(±¯ø„úÿÿÿÿ
+{
+java:S1450¬"XRemove the "btnRepair" field and declare it as a local variable in the relevant methods.(Çÿö«úÿÿÿÿ8ëğ½¼0
+u
+java:S1450¨"YRemove the "btnYellow1" field and declare it as a local variable in the relevant methods.(©ÉÏäùÿÿÿÿ
+w
+java:S1450©"YRemove the "btnYellow2" field and declare it as a local variable in the relevant methods.(å„‘¨8˜Øë½¼0
+r
+java:S1450­"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450®"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+r
+java:S1450¯"VRemove the "jPanel2" field and declare it as a local variable in the relevant methods.(õ òçüÿÿÿÿ
+t
+java:S1450°"VRemove the "jPanel3" field and declare it as a local variable in the relevant methods.(Œ³èÈ8˜Øë½¼0
+t
+java:S1450±"VRemove the "jPanel5" field and declare it as a local variable in the relevant methods.(³¡©ú8˜Øë½¼0
+H
+java:S1172ì"*Remove this unused method parameter "evt".(¼ç˜Ì8©Øë½¼0
+U
+java:S1135í"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8©Øë½¼0
+M
+java:S1172ğ"*Remove this unused method parameter "evt".(¥÷ëƒÿÿÿÿÿ8®Øë½¼0
+U
+java:S1135ñ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8®Øë½¼0
+M
+java:S1172ô"*Remove this unused method parameter "evt".(Òµˆ¡øÿÿÿÿ8®Øë½¼0
+U
+java:S1135õ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8®Øë½¼0
+M
+java:S1197û"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8®Øë½¼0
+\
+java:S2147Š"ECombine this catch with the one at line 264, which has the same body.(¨¦Š½
+\
+java:S2147Œ"ECombine this catch with the one at line 264, which has the same body.(ã€ 
+b
+java:S2147"ECombine this catch with the one at line 264, which has the same body.(ñÎ¯%8®Øë½¼0
+g
+java:S3252»"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(÷çê²8®Øë½¼0
+X
+java:S1144ì":Remove this unused private "btnOffActionPerformed" method.(¼ç˜Ì8®Øë½¼0
+d
+java:S1144ğ"ARemove this unused private "jRadioButton1ActionPerformed" method.(¥÷ëƒÿÿÿÿÿ8®Øë½¼0
+d
+java:S1144ô"ARemove this unused private "jRadioButton2ActionPerformed" method.(Òµˆ¡øÿÿÿÿ8®Øë½¼0

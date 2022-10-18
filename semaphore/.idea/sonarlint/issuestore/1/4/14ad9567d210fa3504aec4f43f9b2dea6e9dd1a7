@@ -1,0 +1,11 @@
+
+Z
+java:S2259."DA "NullPointerException" could be thrown; "client" is nullable here.(´Ú’
+S	java:S106"9Replace this use of System.out or System.err by a logger.(í€í›üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßÏˆ”
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(í…„â
+M	java:S106)"9Replace this use of System.out or System.err by a logger.(°ïü_
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ÃÁÚ
+M	java:S1060"9Replace this use of System.out or System.err by a logger.(¬¤æ}
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

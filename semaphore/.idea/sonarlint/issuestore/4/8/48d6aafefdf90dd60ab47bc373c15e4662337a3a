@@ -1,0 +1,107 @@
+
+r
+java:S1450Ê"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450Ë"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ
+r
+java:S1450Ì"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+r
+java:S1450Í"VRemove the "jPanel2" field and declare it as a local variable in the relevant methods.(õ òçüÿÿÿÿ
+m
+java:S1450Î"VRemove the "jPanel3" field and declare it as a local variable in the relevant methods.(Œ³èÈ
+r
+java:S1450Ï"VRemove the "jPanel4" field and declare it as a local variable in the relevant methods.(§É†¬şÿÿÿÿ
+m
+java:S1450Ğ"VRemove the "jPanel5" field and declare it as a local variable in the relevant methods.(³¡©ú
+l
+java:S1450Ñ"VRemove the "jPanel6" field and declare it as a local variable in the relevant methods.(í›åv
+I
+java:S1948".Make "taskFailSem1" transient or serializable.(€ûĞÿÿÿÿÿ
+I
+java:S1948".Make "taskFailSem2" transient or serializable.(¸ŞÅÿÿÿÿÿ
+I
+java:S1948".Make "taskFailSem3" transient or serializable.(¼Æ¬÷ıÿÿÿÿ
+D
+java:S1948".Make "taskFailSem4" transient or serializable.(œÛÔ¤
+H
+java:S1948"-Make "taskOffSem1" transient or serializable.(Ãê Şûÿÿÿÿ
+H
+java:S1948"-Make "taskOffSem2" transient or serializable.(ì°µÔûÿÿÿÿ
+C
+java:S1948"-Make "taskOffSem3" transient or serializable.(‘ŸŠÆ
+H
+java:S1948 "-Make "taskOffSem4" transient or serializable.(åïËÿÿÿÿÿ
+N
+java:S1948""3Make "taskAutoGroup1Red" transient or serializable.(ƒÀõ°şÿÿÿÿ
+L
+java:S1948#"6Make "taskAutoGroup1Yellow" transient or serializable.(Ï•¤ı
+P
+java:S1948$"5Make "taskAutoGroup1Green" transient or serializable.(¤Í‡‘ûÿÿÿÿ
+R
+java:S1948%"7Make "taskAutoGroup1Yellow2" transient or serializable.(ôªõÃıÿÿÿÿ
+I
+java:S1948'"3Make "taskAutoGroup2Red" transient or serializable.(ÏÉ« 
+Q
+java:S1948("6Make "taskAutoGroup2Yellow" transient or serializable.(ßøÃ„úÿÿÿÿ
+K
+java:S1948)"5Make "taskAutoGroup2Green" transient or serializable.(³ûô³
+R
+java:S1948*"7Make "taskAutoGroup2Yellow2" transient or serializable.(¶ë±•úÿÿÿÿ
+O
+java:S1948,"4Make "taskAutoGroup1Red2" transient or serializable.(åûæøÿÿÿÿ
+Q
+java:S1948."6Make "taskAutoGroup2Green2" transient or serializable.(ĞÊßÿÿÿÿÿ
+B
+java:S19481"'Make "timer" transient or serializable.(ñò”°úÿÿÿÿ
+F
+java:S1197ô"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147ƒ"ECombine this catch with the one at line 257, which has the same body.(¨¦Š½
+\
+java:S2147…"ECombine this catch with the one at line 257, which has the same body.(ã€ 
+[
+java:S2147‡"ECombine this catch with the one at line 257, which has the same body.(ñÎ¯%
+C
+java:S1602",Remove useless curly braces around statement(¤çšÜ
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(ıÄƒ®
+T	java:S106–"9Replace this use of System.out or System.err by a logger.(ëçÃûÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(€Šó™üÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¥–ÇŞıÿÿÿÿ
+T	java:S106¢"9Replace this use of System.out or System.err by a logger.(ò«ºÈøÿÿÿÿ
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(«ŞŞªúÿÿÿÿ
+T	java:S106©"9Replace this use of System.out or System.err by a logger.(¸¤ Íıÿÿÿÿ
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(«…û±üÿÿÿÿ
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(§îï‡
+T	java:S106²"9Replace this use of System.out or System.err by a logger.(×Ïş¢şÿÿÿÿ
+T	java:S106·"9Replace this use of System.out or System.err by a logger.(Õ’€şøÿÿÿÿ
+O	java:S106¹"9Replace this use of System.out or System.err by a logger.(ŸËÖ
+T	java:S106¾"9Replace this use of System.out or System.err by a logger.(êö—ëÿÿÿÿÿ
+T	java:S106à"9Replace this use of System.out or System.err by a logger.(Ó÷ÌŒùÿÿÿÿ
+O	java:S106á"9Replace this use of System.out or System.err by a logger.(İÿÀş
+O	java:S106ì"9Replace this use of System.out or System.err by a logger.(­²ƒƒ
+O	java:S106í"9Replace this use of System.out or System.err by a logger.(Šˆ©€
+O	java:S106ø"9Replace this use of System.out or System.err by a logger.(¿Ó†‡
+T	java:S106ù"9Replace this use of System.out or System.err by a logger.(—ô£ÿÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(­²ƒƒ
+O	java:S106…"9Replace this use of System.out or System.err by a logger.(Šˆ©€
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(Ó÷ÌŒùÿÿÿÿ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(İÿÀş
+T	java:S106¢"9Replace this use of System.out or System.err by a logger.(ËÛß¬úÿÿÿÿ
+T	java:S106£"9Replace this use of System.out or System.err by a logger.(—’íœÿÿÿÿÿ
+T	java:S106±"9Replace this use of System.out or System.err by a logger.(åÂÀøÿÿÿÿ
+O	java:S106²"9Replace this use of System.out or System.err by a logger.(Ø÷®è
+O	java:S106½"9Replace this use of System.out or System.err by a logger.(›…½ç
+O	java:S106¾"9Replace this use of System.out or System.err by a logger.(İ§‘ô
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(åÂÀøÿÿÿÿ
+O	java:S106Ê"9Replace this use of System.out or System.err by a logger.(Ø÷®è
+T	java:S106Õ"9Replace this use of System.out or System.err by a logger.(ËÛß¬úÿÿÿÿ
+T	java:S106Ö"9Replace this use of System.out or System.err by a logger.(—’íœÿÿÿÿÿ
+T	java:S106æ"9Replace this use of System.out or System.err by a logger.(Æ“˜ûÿÿÿÿ
+T	java:S106ğ"9Replace this use of System.out or System.err by a logger.(Æ“˜ûÿÿÿÿ
+T	java:S106û"9Replace this use of System.out or System.err by a logger.(µ‡İÉûÿÿÿÿ
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(µ‡İÉûÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(õìÑ›şÿÿÿÿ
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(õìÑ›şÿÿÿÿ
+T	java:S106¥"9Replace this use of System.out or System.err by a logger.(”¨Şêüÿÿÿÿ
+T	java:S106¯"9Replace this use of System.out or System.err by a logger.(”¨Şêüÿÿÿÿ
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(Ğİüÿúÿÿÿÿ
