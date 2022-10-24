@@ -7,7 +7,7 @@ import co.com.ud.semaforo.presentacion.SemaforoModel;
  */
 public class Launcher {
 
-    private SemaforoModel miApp;
+    private final SemaforoModel miApp;
 
     public Launcher() {
         miApp = new SemaforoModel();

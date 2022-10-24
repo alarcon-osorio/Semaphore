@@ -1,0 +1,19 @@
+
+@
+java:S5411f"*Use the primitive boolean expression here.(ËÕô´
+@
+java:S5411r"*Use the primitive boolean expression here.(ËÕô´
+`
+java:S2259…"IA "NullPointerException" could be thrown; "semaforoDto" is nullable here.(ÈıÏí
+v
+java:S1450"`Remove the "semaforoDosBinary" field and declare it as a local variable in the relevant methods.(ºû£ë
+{
+java:S1450"`Remove the "semaforoUnoBinary" field and declare it as a local variable in the relevant methods.(ğ·ìÿÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(·î‹»ùÿÿÿÿ
+h
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(˜ù»
+y
+java:S2142\"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(İü‘ºÿÿÿÿÿ
+C
+java:S1602•",Remove useless curly braces around statement(ÈıÏí

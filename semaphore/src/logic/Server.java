@@ -19,8 +19,6 @@ public class Server extends JFrame implements Runnable {
 
     Light light = new Light();
 
-
-
     public Server(int port) throws IOException {
         serverSocket = new ServerSocket(port);
         serverSocket.setSoTimeout(1000000);

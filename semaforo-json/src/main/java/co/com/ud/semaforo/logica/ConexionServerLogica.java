@@ -2,6 +2,7 @@ package co.com.ud.semaforo.logica;
 
 
 import java.io.IOException;
+import java.net.ServerSocket;
 import java.net.Socket;
 import lombok.Data;
 import org.apache.log4j.Logger;
@@ -22,6 +23,7 @@ public class ConexionServerLogica {
     private int puerto;
     private Socket socket;
     private Logger log = Logger.getLogger(ConexionServerLogica.class);
+    private ServerSocket serverSocket;
     
     public ConexionServerLogica(String ip, int puerto) {
         this.ip = ip;
@@ -30,6 +32,8 @@ public class ConexionServerLogica {
     
     public Boolean conectarServer(){
         try {
+            serverSocket = new ServerSocket(this.puerto);
+            serverSocket.setSoTimeout(1000000);
             this.socket = new Socket(this.ip, this.puerto);
         } catch (IOException ex) {
             ex.printStackTrace();
