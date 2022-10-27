@@ -1,0 +1,13 @@
+
+@
+java:S5411R"*Use the primitive boolean expression here.(‹ÏÙ÷
+N	java:S106("9Replace this use of System.out or System.err by a logger.(şÉÇì
+Y
+java:S18546"CRemove this useless assignment to local variable "mensajeRecibido".(ËÜÍ´
+J
+java:S1481."4Remove this unused "mensajeRecibido" local variable.(ŞéÛ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(ßè»ƒ
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(„Õ“ãıÿÿÿÿ8‚ùï¸Á0
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(©½×¤ıÿÿÿÿ8¦ï¸Á0
+y
+java:S2142W"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ

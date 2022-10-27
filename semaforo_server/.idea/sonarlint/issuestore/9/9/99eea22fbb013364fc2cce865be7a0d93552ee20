@@ -1,0 +1,12 @@
+
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(ŽÛÔ„
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Ä€ØÓ
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(«‡ç³ûÿÿÿÿ8Ÿ‚…¸Á0
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ÿó ©úÿÿÿÿ8×º…¸Á0
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ù¡­¾úÿÿÿÿ8„±†¸Á0
+E
+java:S20932"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+D
+java:S1068"'Remove this unused "log" private field.(úö´š8…±†¸Á0
+L
+java:S1068"6Remove this unused "readFileJsonlogica" private field.(¿­òè

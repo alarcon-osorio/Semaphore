@@ -1,0 +1,27 @@
+
+>
+java:S1604R"(Make this anonymous inner class a lambda(Æ¦Ÿô
+=
+java:S1604e"(Make this anonymous inner class a lambda(Ú Û
+V
+java:S1948";Make "semaforoServerControlador" transient or serializable.(˜ÊŒ„ýÿÿÿÿ
+K
+java:S1948"5Make "ejecucionCicloModel" transient or serializable.(›£Š¨
+R
+java:S1948"7Make "pararCicloControlador" transient or serializable.(­¼¾÷øÿÿÿÿ
+K
+java:S1948"0Make "serverSemaforo" transient or serializable.(ÃŽ¼Ûøÿÿÿÿ
+P
+java:S1948"5Make "envioMensajesLogica" transient or serializable.(‡´¦¿üÿÿÿÿ
+N
+java:S1948"3Make "planSemaforicoDto" transient or serializable.(£Îí©ÿÿÿÿÿ
+E
+java:S1172~"*Remove this unused method parameter "evt".(È¦ù«ýÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172‚"*Remove this unused method parameter "evt".(Ý—Ôšüÿÿÿÿ
+N
+java:S1135ƒ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+f
+java:S1128	"PRemove this unused import 'co.com.ud.semaforo.server.logica.ReadFileJsonlogica'.(àù×ó
