@@ -32,8 +32,6 @@ public class ConexionServerLogica {
     
     public Boolean conectarServer(){
         try {
-            serverSocket = new ServerSocket(this.puerto);
-            serverSocket.setSoTimeout(1000000);
             this.socket = new Socket(this.ip, this.puerto);
         } catch (IOException ex) {
             ex.printStackTrace();

@@ -13,3 +13,9 @@ E
 .src/presentation/ControllerBoardPrincipal.java,c\8\c8c4ef7462d42bbed1585aaabcda354910c68dfc
 T
 $src/presentation/SemaphoresView.java,4\8\48d6aafefdf90dd60ab47bc373c15e4662337a3a
+E
+src/LaunchServer.java,4\4\44d48c64e4a737eedac34b7c0ef56a7ab91b2886
+E
+src/logic/Client.java,1\4\14ad9567d210fa3504aec4f43f9b2dea6e9dd1a7
+E
+src/logic/Server.java,9\6\96177233e9b474a75d50c0467206e4426313e613

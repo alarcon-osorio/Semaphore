@@ -1,0 +1,9 @@
+
+`
+java:S2259."JA "NullPointerException" could be thrown; "entradaDatos" is nullable here.(ìõÃ
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(îÓèÀÿÿÿÿÿ8°¤ş¸Á0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(¹é¦­øÿÿÿÿ8ú¹ş¸Á0
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(¬£¾8¼™ÿ¸Á0
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¹é¦­øÿÿÿÿ8·¬ÿ¸Á0
+I
+java:S1068"'Remove this unused "log" private field.(óãşÿÿÿÿ8¹¬ÿ¸Á0

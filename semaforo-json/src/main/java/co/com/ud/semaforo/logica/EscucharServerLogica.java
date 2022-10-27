@@ -34,9 +34,9 @@ public class EscucharServerLogica extends Thread{
         try {
             entradaDatos = new DataInputStream(socket.getInputStream());
         } catch (IOException ex) {
-            log.error("Error al crear el stream de entrada: " + ex.getMessage());
+            System.out.println("Error al crear el stream de entrada: " + ex.getMessage());
         } catch (NullPointerException ex) {
-            log.error("El socket no se creo correctamente. ");
+            System.out.println("El socket no se creo correctamente. ");
         }
         
         // Bucle infinito que recibe mensajes del servidor
@@ -54,10 +54,10 @@ public class EscucharServerLogica extends Thread{
                 }
                 
             } catch (IOException ex) {
-                log.error("Error al leer del stream de entrada: " + ex.getMessage());
+                System.out.println("Error al leer del stream de entrada: " + ex.getMessage());
                 conectado = false;
             } catch (NullPointerException ex) {
-                log.error("El socket no se creo correctamente. ");
+                System.out.println("El socket no se creo correctamente. ");
                 conectado = false;
             }
         }

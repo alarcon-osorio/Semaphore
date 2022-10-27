@@ -1,8 +1,8 @@
 
-=
-java:S1604Q"(Make this anonymous inner class a lambda(ĞÙÉ
->
-java:S1604b"(Make this anonymous inner class a lambda(üİû‚
+D
+java:S1604Q"(Make this anonymous inner class a lambda(ĞÙÉ8„¹¶Á0
+E
+java:S1604b"(Make this anonymous inner class a lambda(üİû‚8„¹¶Á0
 I
 java:S1948"3Make "semaforoVehicular" transient or serializable.(áù®Ç
 H
@@ -12,11 +12,11 @@ java:S1948"5Make "semaforoControlador" transient or serializable.(Ó˜Ÿ›
 J
 java:S1948"/Make "semaforoModel" transient or serializable.(‚‡ü¤ùÿÿÿÿ
 Q	java:S125,"<This block of commented-out lines of code should be removed.(ÿªëØ
-F
-java:S1172„"*Remove this unused method parameter "evt".(Îä…‚ùÿÿÿÿ
-N
-java:S1135…"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
-A
-java:S1172ˆ"*Remove this unused method parameter "evt".(×±¡ƒ
-N
-java:S1135‰"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+M
+java:S1172„"*Remove this unused method parameter "evt".(Îä…‚ùÿÿÿÿ8‰ï¹¶Á0
+U
+java:S1135…"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8Šï¹¶Á0
+H
+java:S1172ˆ"*Remove this unused method parameter "evt".(×±¡ƒ8Œï¹¶Á0
+U
+java:S1135‰"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ï¹¶Á0
